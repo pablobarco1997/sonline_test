@@ -4,9 +4,9 @@
 function connection(){
     $conexion = null;
     $host     = 'ec2-18-222-186-141.us-east-2.compute.amazonaws.com'; #ip o nombre del servidor remoto o local
-    $database = ''; //SE ENCUENTRA TODAS LAS ENTIDADES REGISTRADAS
-    $username = '';
-    $password = ''; #PASSWIRD #PASSWORD SERVIDOR REMOTO ==> Pablo_1997
+    $database = 'testConneciondb'; //SE ENCUENTRA TODAS LAS ENTIDADES REGISTRADAS
+    $username = 'phpConnection';
+    $password = '1997barco07pablo97'; #PASSWIRD #PASSWORD SERVIDOR REMOTO ==> Pablo_1997
     $utf8mb4  = 'utf8mb4';
 
     try{
