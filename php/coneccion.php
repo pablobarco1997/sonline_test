@@ -3,7 +3,7 @@
 
 function connection(){
     $conexion = null;
-    $host     = 'ec2-18-188-129-60.us-east-2.compute.amazonaws.com'; #ip o nombre del servidor remoto o local
+    $host     = 'ec2-18-222-186-141.us-east-2.compute.amazonaws.com'; #ip o nombre del servidor remoto o local
     $database = ''; //SE ENCUENTRA TODAS LAS ENTIDADES REGISTRADAS
     $username = '';
     $password = ''; #PASSWIRD #PASSWORD SERVIDOR REMOTO ==> Pablo_1997
