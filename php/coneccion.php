@@ -1,6 +1,8 @@
 <?php 
 
-print_r($_SERVER['SERVER_NAME']); die(); 
+print_r($_SERVER['SERVER_NAME']); echo '<br>'; 
+print_r($_SERVER['DOCUMENT_ROOT']); echo '<br>'; 
+die(); 
 
 function connection(){
     $conexion = null;
