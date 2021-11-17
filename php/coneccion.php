@@ -1,5 +1,6 @@
 <?php 
 
+print_r($_SERVER['SERVER_NAME']); die(); 
 
 function connection(){
     $conexion = null;
